@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		909211B31DDA76560048409B /* SelectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909211B21DDA76560048409B /* SelectionViewViewController.swift */; };
+		909211B51DDA77630048409B /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909211B41DDA77630048409B /* SearchTableViewController.swift */; };
+		909211B71DDA807C0048409B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909211B61DDA807C0048409B /* Title.swift */; };
+		909211BB1DDA81000048409B /* Title+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909211BA1DDA81000048409B /* Title+CoreDataProperties.swift */; };
 		9096163C1DD1389200B001FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9096163B1DD1389200B001FD /* AppDelegate.swift */; };
 		9096163E1DD1389200B001FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9096163D1DD1389200B001FD /* ViewController.swift */; };
 		909616411DD1389300B001FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9096163F1DD1389300B001FD /* Main.storyboard */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		909211B21DDA76560048409B /* SelectionViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectionViewViewController.swift; path = ../SelectionViewViewController.swift; sourceTree = "<group>"; };
+		909211B41DDA77630048409B /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		909211B61DDA807C0048409B /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		909211BA1DDA81000048409B /* Title+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Title+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		909616381DD1389200B001FD /* Backlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9096163B1DD1389200B001FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9096163D1DD1389200B001FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +54,8 @@
 		9096162F1DD1389200B001FD = {
 			isa = PBXGroup;
 			children = (
+				909211BA1DDA81000048409B /* Title+CoreDataProperties.swift */,
+				909211B61DDA807C0048409B /* Title.swift */,
 				909616501DD140BB00B001FD /* Images */,
 				9096163A1DD1389200B001FD /* Backlog */,
 				909616391DD1389200B001FD /* Products */,
@@ -63,6 +73,7 @@
 		9096163A1DD1389200B001FD /* Backlog */ = {
 			isa = PBXGroup;
 			children = (
+				909211B21DDA76560048409B /* SelectionViewViewController.swift */,
 				9096163B1DD1389200B001FD /* AppDelegate.swift */,
 				9096163D1DD1389200B001FD /* ViewController.swift */,
 				9096163F1DD1389300B001FD /* Main.storyboard */,
@@ -70,6 +81,7 @@
 				909616471DD1389300B001FD /* LaunchScreen.storyboard */,
 				9096164A1DD1389300B001FD /* Info.plist */,
 				909616421DD1389300B001FD /* Backlog.xcdatamodeld */,
+				909211B41DDA77630048409B /* SearchTableViewController.swift */,
 			);
 			path = Backlog;
 			sourceTree = "<group>";
@@ -158,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				909211B31DDA76560048409B /* SelectionViewViewController.swift in Sources */,
 				9096163E1DD1389200B001FD /* ViewController.swift in Sources */,
+				909211B51DDA77630048409B /* SearchTableViewController.swift in Sources */,
 				9096163C1DD1389200B001FD /* AppDelegate.swift in Sources */,
+				909211B71DDA807C0048409B /* Title.swift in Sources */,
 				909616441DD1389300B001FD /* Backlog.xcdatamodeld in Sources */,
+				909211BB1DDA81000048409B /* Title+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +328,7 @@
 				9096164F1DD1389300B001FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
